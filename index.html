@@ -26,6 +26,8 @@
 
                          <button onclick="cube()"> x^3 </button>
 
+                         <button onclick="power_4()"> x^4</button>
+
                  </p>
 
                  <script type="text/javascript">
@@ -51,6 +53,13 @@
                                   var num = document.getElementById("n1");
 
                                   num.value = 1/num.value;
+                         }
+                         
+                         function power_4() {
+
+                                  var num = document.getElementById("n1");
+
+                                  num.value = Math.pow(num.value, 4);
 
                          }
 
